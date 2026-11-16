@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to bottom, rgba(74, 111, 136), rgb(22, 22, 39) 50%,rgb(22, 22, 39) 70%, rgba(144, 144, 251) 80%);
+        min-height: 100vh; 
+            margin: 0;
+}
+@font-face {
+  font-family: apple; 
+  src: url("fonts/AppleGaramond.woff"); 
+}
+body {
+    font-family: apple;
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.gradient-background {
+  width: 100%;
+  height: 580px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  
+
+  background-image: 
+    linear-gradient(to top, rgb(22, 22, 39) 0%, rgba(35, 42, 48, 0) 40%), 
+    url('images/whatthehellisgoingon.png');
+}
+li img {
+    width: 200px;
+    height: auto;
+    border-radius: 0;
+}
+.box {
+    background-color: rgb(219, 226, 255);
+    padding: 2px;
+    border-radius: 10px;
+    max-width: auto;
+    max-height: 300px;
+    border-color: blue;
+}
+.order {
+    display: flex;
+    list-style-type: none;
+    gap: 0px;
+    padding: 0;
+    justify-content: center;
+}
+p {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}
+.container .important  {
+    width: 200px;
+    height: auto;
+}
+.container .moreimportant {
+    width: 40%;
+    height: auto;
+}
+  table {
+    border-collapse: collapse; 
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid rgb(203, 230, 243); 
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+  }
+table img {
+    width: 500px;
+    height: 500px;
+}
